@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido cliente="11111111111">
+    <itens>
+        <item>
+            <nome>Produto A</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto B</nome>
+            <quantidade>2</quantidade>
+            <tipo>INDUSTRIALIZADO</tipo>
+        </item>
+    </itens>
+</pedido>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+
+  <persistence-unit name="ecommerce" transaction-type="RESOURCE_LOCAL">
+    <provider> 
+      org.apache.openjpa.persistence.PersistenceProviderImpl
+    </provider>
+
+    <class>arkhi.camel.ecommerce.domain.Pedido</class>
+    <class>arkhi.camel.ecommerce.domain.Item</class>
+    
+    <properties>
+      <!-- property name="openjpa.ConnectionDriverName" value="org.hsqldb.jdbcDriver" / -->
+      <!--  property name="openjpa.ConnectionURL" value="jdbc:hsqldb:mem:ecommerce" / -->
+      <property name="openjpa.ConnectionDriverName" value="org.h2.Driver" />
+      <property name="openjpa.ConnectionURL" value="jdbc:h2:tcp://localhost:8043//var/tmp/ecommerce-1.0.0;DB_CLOSE_DELAY=-1;MODE=Oracle;TRACE_LEVEL_SYSTEM_OUT=0" />
+       
+      <property name="openjpa.ConnectionUserName" value="sa" />
+      <property name="openjpa.ConnectionPassword" value="" />
+      <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema" />
+      <property name="openjpa.Log" value="DefaultLevel=WARN, Tool=INFO, SQL=INFO"/>
+    </properties>
+
+  </persistence-unit>
+</persistence>

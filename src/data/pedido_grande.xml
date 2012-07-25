@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido cliente="22222222222">
+    <itens>
+        <item>
+            <nome>Produto A</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto B</nome>
+            <quantidade>2</quantidade>
+            <tipo>INDUSTRIALIZADO</tipo>
+        </item>
+        <item>
+            <nome>Produto C</nome>
+            <quantidade>3</quantidade>
+            <tipo>INDUSTRIALIZADO</tipo>
+        </item>
+        <item>
+            <nome>Produto D</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto E</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto F</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto G</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto H</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto I</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto J</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto K</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto L</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto M</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto N</nome>
+            <quantidade>1</quantidade>
+            <tipo>INDUSTRIALIZADO</tipo>
+        </item>
+        <item>
+            <nome>Produto O</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+        <item>
+            <nome>Produto P</nome>
+            <quantidade>1</quantidade>
+            <tipo>INDUSTRIALIZADO</tipo>
+        </item>
+        <item>
+            <nome>Produto Q</nome>
+            <quantidade>1</quantidade>
+            <tipo>INDUSTRIALIZADO</tipo>
+        </item>
+        <item>
+            <nome>Produto R</nome>
+            <quantidade>1</quantidade>
+            <tipo>ARTESANAL</tipo>
+        </item>
+    </itens>
+</pedido>
